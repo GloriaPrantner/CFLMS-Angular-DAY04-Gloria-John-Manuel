@@ -1,0 +1,188 @@
+/* You can add global styles to this file, and also import other style files */
+
+.main-header
+{
+	background-image: url("assets/Images/banner.jpg");
+	background-size: cover;
+	width: 100%;
+	height: 20vw;
+}
+
+.navbar
+{
+	width: 100%;
+	background-color: green;
+	display: flex;
+	justify-content: space-between;
+	justify-content: space-around;
+	padding-top: 1%;
+	padding-bottom: 1%;
+}
+
+.navbar a
+{
+	text-decoration: none;
+	font-size: 3.5vw;
+	font-family: sans-serif;
+	color: white;
+	transition-property: color;
+	transition-duration: 500ms;
+}
+
+.navbar a:hover
+{
+	cursor: pointer;
+	color: gray;
+}
+
+.navbar button
+{
+	background-color: green;
+	color: white;
+	font-size: 3vw;
+	border: white 2px solid;
+	border-radius: 5px;
+	cursor: pointer;
+	transition-property: color, background-color, border;
+	transition-duration: 1s;
+}
+
+.navbar button:hover
+{
+	background-color: white;
+	color: green;
+	border: green 2px solid;
+}
+
+.main-footer
+{
+	background-color: green;
+	width: 100%;
+	height: 20vw;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-family: sans-serif;
+	font-size: 2vw;
+	color: white;
+}
+
+.container
+{
+	width: 100%;
+	background-image: url("assets/Images/background.jpg");
+	display: flex;
+	justify-content: space-around;
+}
+
+h1
+{
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-size: 6vw;
+	-webkit-text-stroke: 3px green;
+}
+
+hr
+{
+	color: white;
+	height: 2vw;
+	background-color: green;
+}
+
+.main-content
+{
+	width: 80%;
+	background-color: lightgreen;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.post
+{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 80%;
+	background-color: lightcoral;
+	border: black solid 3px;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+.name
+{
+	font-size: 3vw;
+	color: white;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+.image
+{
+	width: 90%;
+	border: black solid 1px;
+}
+
+.image img
+{
+	width: 100%;
+}
+
+.text
+{
+	background-color: white;
+	width: 85%;
+	font-size: 2vw;
+	font-family: sans-serif;
+	text-shadow: 1px 1px 2px black;
+	text-align: center;
+	margin-top: 1%;
+	margin-bottom: 1%;
+}
+
+.note
+{
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-style: italic;
+	font-size: 1.5vw;
+}
+
+.form 
+{
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+input[type=text], select, textarea 
+{
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc;
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical 
+}
+
+input[type=submit] 
+{
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover 
+{
+  background-color: #45a049;
+}
